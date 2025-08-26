@@ -1,0 +1,45 @@
+/* Custom Fonts */
+
+@font-face{
+  font-family: Raleway;
+  src: url('../fonts/Raleway-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: Raleway;
+  src: url('../fonts/Raleway-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face{
+  font-family: Raleway;
+  src: url('../fonts/Raleway-Black.ttf');
+  font-weight: 900;
+}
+
+@font-face{
+  font-family: Raleway;
+  src: url('../fonts/Raleway-Light.ttf');
+  font-weight: 200;
+}
+
+/* Custom Fonts */
+
+
+
+.iconBtn{
+  transition: all 0.2s ease-in-out !important;
+}
+.iconBtn:hover{
+  background-color: #c5c5c5 !important;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4);
+}
+.problem-card{
+  transition: all 0.3s ease-in-out !important;
+}
+.problem-card:hover{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4);
+}
