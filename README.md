@@ -1,12 +1,65 @@
-# React + Vite
+# ✅ problems-list-main (React + Material UI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **problems-list-main Application** built with **ReactJS** and **Material UI**.  
+This app helps users manage their daily tasks by adding, tracking, and organizing them into different categories.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- Add new tasks with **Title** and **Details**.
+- Mark tasks as **Completed** using a checkbox.
+- Filter tasks into three categories:
+  1. **All** – Displays every task (completed + uncompleted).
+  2. **Completed** – Displays only finished tasks.
+  3. **Uncompleted** – Displays pending tasks that are not yet done.
+- Simple, clean, and responsive UI using **Material UI** components.
+- Real-time task status update when toggling between completed/uncompleted.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📄 Application Structure
+
+### 🔹 Add Task Section
+- Input fields for:
+  - **Task Title**
+  - **Task Details**
+- "Add Task" button to save and display tasks in the list.
+
+---
+
+### 🔹 Task List Section
+- Each task includes:
+  - Task Title
+  - Task Details
+  - Checkbox to mark as **Completed**
+- Automatically moves to:
+  - **Completed tab** when checked.
+  - **Uncompleted tab** when unchecked.
+
+---
+
+### 🔹 Tabs / Filters
+- **All** → Shows all tasks.  
+- **Completed** → Shows only finished tasks.  
+- **Uncompleted** → Shows only pending tasks.  
+
+---
+
+## 🛠️ Technologies Used
+
+- ⚛️ ReactJS  
+- 🎨 Material UI (MUI)  
+- 📄 JavaScript (ES6+)  
+- 💅 CSS  
+
+---
+
+## 📂 Installation & Setup
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/problems-list-main.git
+   cd problems-list-main
